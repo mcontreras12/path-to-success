@@ -247,11 +247,24 @@ td {
 #take-the-first-step {
     background: var(--pink);
     color: var(--white);
-    padding: 1rem;
+    padding: 1rem 1rem 0.2rem;
 }
 
 .first-step-description {
-    margin-top: 0.5rem;
+    margin-top: 0.2em;
+    margin-left: 0;
+    line-height: 1.5;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-step-header {
+    font-size: 2em;
+    font-family: var(--heading-font);
+    padding-left: 0;
+    padding-top: 2px;
 }
 
 #take-the-first-step a {
@@ -260,9 +273,12 @@ td {
     color: var(--dark-grey);
     text-align: center;
     margin: 1rem auto 0;
-    padding: 0.6rem;
-    width: 70%;
-    border-radius: 10px;
-    font-weight: 600;
+    padding: 1.2rem 0;
+    width: 90%;
+    border-radius: 18px;
+    font-weight: 700;
     text-decoration: none;
+    box-shadow: 5px 5px 5px black;
+    font-size: 20px;
+    margin-top: 0.5rem;
 }
