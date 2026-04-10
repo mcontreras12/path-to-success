@@ -241,3 +241,28 @@ td {
     font-family: var(--body-font);
     border: 3px solid var(--yellow);
 }
+
+/* first step styles */
+
+#take-the-first-step {
+    background: var(--pink);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.first-step-description {
+    margin-top: 0.5rem;
+}
+
+#take-the-first-step a {
+    display: block;
+    background: var(--white);
+    color: var(--dark-grey);
+    text-align: center;
+    margin: 1rem auto 0;
+    padding: 0.6rem;
+    width: 70%;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
